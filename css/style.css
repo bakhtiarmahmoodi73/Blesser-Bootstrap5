@@ -1,0 +1,215 @@
+.logo{
+    width: 100px;
+  height: 40px;
+}
+.navbar-brand{
+
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ecedee;
+  border-radius: 5px;
+   padding-bottom: 35px;
+   text-align: center;
+   
+   
+
+}
+.form-control{
+    margin-left:20px;
+    width: 700px;
+    height: 40px;
+    background-color: #ecedee;
+
+    &:focus{
+        border-color: white;
+        box-shadow: none;
+        background-color: #ecedee;
+
+
+    }
+}
+
+.nav{
+    margin-top: 5px;
+    margin-right: 35px;
+    .nav-item{
+        color:black;
+        img{
+            width:20px;
+            margin-top: 12px;
+        }
+       
+    }
+    .nav-link{
+        color: black;
+    }
+    
+}
+.container-fluid{
+    background-color: #ecedee;
+}
+.text-center{
+    background-color: #ecedee;
+}
+
+
+
+  .item-product {
+    background-color:#ecedee ;
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  .item-product a {
+    text-decoration: none;
+    color: gray;
+    margin: 0 5px 0 5px;
+  }
+  .item-product i {
+    margin-right: 5px;
+  }
+  .row1{
+    background-color: red;
+    width: max-content;
+    height: max-content;
+  }
+  .card{
+    background-color: white;
+    width: 200px;
+    height: max-content;
+  }
+  
+  #price-item {
+    flex-direction: column;
+  }
+
+  
+.card button {
+    background-color: red;
+    /* margin: 20px 10px 5px 50px; */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.6rem;
+    width: 35px;
+  }
+  .card  del {
+    color: grey;
+    font-size: 0.8rem;
+    
+  }
+  .card-body p {
+    margin-right:30px;
+    
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+  .card #buy {
+    text-align: center;
+    margin: 20px 5px 15px 5px;
+    width: 90%;
+    color: #fff;
+    border: none;
+    background-color: deepskyblue;
+    border-radius: 5px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 0.7rem;
+  }
+
+  .column-1{
+    width: 250px;
+    /* border: none; */
+    position: relative;
+  }
+  #text{
+    color: red;
+  p{
+    margin: 0px 50px 0px 0px;
+    font-size: 0.8rem;
+  }
+  
+  }
+  #images {
+    display: flex;
+  }
+  
+  #images img {
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin: 2px;
+    border: 1px solid gainsboro ;
+    border-radius: 5px;
+  }
+  .column2{
+    width: 300px;
+  }
+
+  #watch {
+    color: dodgerblue;
+    margin-right: 5px;
+  }
+  .size {
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid gainsboro;
+    padding: 5px;
+  }
+  .fill {
+    display: inline-block;
+    background-color: #fff;
+    /* border-radius: 50%; */
+    /* border: 1px solid blue; */
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .check-2 {
+    display: inline-block;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid blue;
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+
+
+
+  .column3{
+   width: fit-content;
+  }
+
+
+  .side{
+    list-style:none ;
+    margin-left: 60px;
+  }
+
+  .card{
+    /* border: none; */
+    /* background-color: #fff; */
+  }
+
+  .cart{
+   
+  }
+  /* .card-group{
+    display: flex;
+    flex-direction: row;
+  } */
+
+  .side{
+    margin-left: 20px;
+    margin-right: 0px;
+    position: absolute;
+    right: 280px;
+  }
+  .card-img-top{
+    width: 200px;
+  }
