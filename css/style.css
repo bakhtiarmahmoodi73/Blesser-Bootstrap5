@@ -45,12 +45,7 @@
     }
     
 }
-.container-fluid{
-    background-color: #ecedee;
-}
-.text-center{
-    background-color: #ecedee;
-}
+
 
 
 
@@ -65,28 +60,12 @@
     color: gray;
     margin: 0 5px 0 5px;
   }
-  .item-product i {
-    margin-right: 5px;
-  }
-  .row1{
-    background-color: red;
-    width: max-content;
-    height: max-content;
-  }
-  .card{
-    background-color: white;
-    width: 200px;
-    height: max-content;
-  }
   
-  #price-item {
-    flex-direction: column;
-  }
+
 
   
 .card button {
     background-color: red;
-    /* margin: 20px 10px 5px 50px; */
     color: #fff;
     border: none;
     border-radius: 10px;
@@ -117,11 +96,6 @@
     font-size: 0.7rem;
   }
 
-  .column-1{
-    width: 250px;
-    /* border: none; */
-    position: relative;
-  }
   #text{
     color: red;
   p{
@@ -143,9 +117,7 @@
     border: 1px solid gainsboro ;
     border-radius: 5px;
   }
-  .column2{
-    width: 300px;
-  }
+  
 
   #watch {
     color: dodgerblue;
@@ -156,60 +128,28 @@
     border-radius: 50%;
     border: 1px solid gainsboro;
     padding: 5px;
+    /* margin: 5px; */
   }
-  .fill {
-    display: inline-block;
-    background-color: #fff;
-    /* border-radius: 50%; */
-    /* border: 1px solid blue; */
-    width: 15px;
-    height: 15px;
-    padding: 5px;
-    margin: 5px;
-  }
-  .check-2 {
-    display: inline-block;
-    background-color: blue;
-    border-radius: 50%;
-    border: 1px solid blue;
-    width: 15px;
-    height: 15px;
-    padding: 5px;
-    margin: 5px;
-  }
-
-
-
-
-  .column3{
-   width: fit-content;
-  }
+  
 
 
   .side{
     list-style:none ;
     margin-left: 60px;
-  }
-
-  .card{
-    /* border: none; */
-    /* background-color: #fff; */
-  }
-
-  .cart{
-   
-  }
-  /* .card-group{
-    display: flex;
-    flex-direction: row;
-  } */
-
-  .side{
-    margin-left: 20px;
-    margin-right: 0px;
     position: absolute;
-    right: 280px;
+    top: 150px;
+    right:708px;
+    li{
+      margin: 4px;
+    }
   }
-  .card-img-top{
-    width: 200px;
-  }
+
+  
+  
+
+.footer{
+  font-size: 0.7rem;
+}
+.lead{
+  font-size: 0.8rem;
+}
